@@ -1,0 +1,202 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+	<head id="Head1" runat="server">
+		<title>Nao Takeda Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
+
+
+	<script type="text/javascript">
+		<!--Preloading Slideshow images>
+		var image1 = new Image()
+		image1.src = "images/Slideshow3d/Im1.jpg"
+		var image2 = new Image()
+		image2.src = "images/Slideshow3d/Im2.jpg"
+		var image3 = new Image()
+		image3.src = "images/Slideshow3d/Im3.jpg"
+		//-->
+	</script>
+
+	<link rel="stylesheet" type="text/css" href="js/source/jquery.fancybox.css"/>
+
+
+	<script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+	<script type="text/javascript" language="javascript" src="js/source/jquery.fancybox.js"></script>
+
+	<script type="text/javascript" language="javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+
+
+	</head>
+	<body class="body">
+		<form id="form1" runat="server">
+		<header class="mainheader">
+			<asp:Image ID="Image1" runat="server" ImageUrl="images/header_up.png" CssClass="header_up"/>
+			<img src="images/logo.png" />
+			<nav>
+				<ul>
+					<li><a href="Home.html">Home</a></li>
+					<li><a href="Info.html">Info</a></li>
+					<li class="active"><a href="3D.html">3D</a></li>
+					<li><a href="2D.html">2D</a></li>
+				</ul>
+			</nav>
+		</header>
+			<div class="maincontent">
+				<div class="content">
+					<article class="topcontent">
+						<!--div class="slidecontent">
+							<img id="slider" src="images/Slideshow3d/Im1.jpg" name="slide"/>
+							<script type="text/javascript">
+							
+								var step=1
+								function slideit() {
+									document.images.slide.src = eval("image" + step + ".src")
+									if (step < 3)
+										step++
+									else
+										step = 1
+									setTimeout("slideit()", 2000)
+								}
+								slideit()
+							
+							</script>
+						</div-->
+						<div class="Container">
+							<p>3D Sculpting Work</p>
+							<section id="Content">
+								<div class="Gallery">
+									<ul>
+										<h4>Penny</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/penny.png"><img src="images/3DImages/tn/penny.png" alt="" /></a></li>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/penny2.png"><img src="images/3DImages/tn/penny2.jpg" alt="" /></a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - Anatomy practice project named penny</h5></li>
+									</ul>
+									
+									<ul>
+										<h4>Natalie (size 4)</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/natalie.png"><img src="images/3DImages/tn/natalie.jpg" width="100" height="100" alt=""</a></li>
+										<li><img src="images/3DImages/tn/natalie2.png" width="100" height="100" alt=""</a></li>
+										<li><img src="images/3DImages/tn/natalie3.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - This was the first full sized mannequin I made using 3D scan of actual person. We used Go!3D hand held scanner made by creaform.
+The challenge was that the scanner only scans 15” x 15” and I needed to go around the body to get the whole scan. Eventually the model became tired and got harder for her to stay still.
+I was able to patch the broken scans after but I also learnt it’s important to scan fast and not to get greedy with the pose options. I also make sure to take all her measurements from head to toe.
+CLIENT - NORDSTROM, CHRISTOPHER & BANKS
+The process - It starts from ideation. The prefered pose and garment size is usually provided from the client.
+They can give us something vague first because I can always adjust the size & poses digitally.
+The body scan always speeds up my process. There are a few things I need to adjust to make it functional as a mannequin.
+So that’s also done at this stage. I usually send 360 renders for client’s shape approval.
+My employer owns rapid printers. We usually print 1:6 size of actual mannequin to send to a client. After that,
+we use CNC machine to produce a life size model so that the client can actually do a fit test. If they have any issues at that point,
+Our traditional sculptors are going to make the adjustment phsycally. Once the lifesize model gets an approval, I scan
+the change back into the computer, clean it up for the production and send the data to a mould maker.</h5></li>
+									</ul>
+									<ul>
+										<h4>Louis</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/louis.png"><img src="images/3DImages/tn/louis.png" width="100" height="100" alt=""</a></li>
+										<li><img src="images/3DImages/tn/louis2.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - This project started from 3D scan of client’s old mannquins. I added extra anatomy details as well as pose adjustment.
+CLIENT - LULULEMON</h5></li>
+									</ul>
+									<ul>
+										<h4>Kit</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/kit.png"><img src="images/3DImages/tn/kit.png" width="100" height="100" alt=""</a></li>
+										<li><img src="images/3DImages/tn/kit2.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - We did not scan anything for this project. Luckly they picked
+a very simple poses so I was able to work of of some photos and
+our stocked digital file.
+CLIENT - KIT & ACE</h5></li>
+									</ul>
+									<ul>
+										<h4>Scott</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/scott.png"><img src="images/3DImages/tn/scott.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - This is something for the company I work for. We decided to develop a fashion male mannequin we can pair up with female mannequins.</h5></li>
+									</ul>
+									<ul>
+										<h4>Nader</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/nader.png"><img src="images/3DImages/tn/nader.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - I used my husband’s photos to sculpt his head.</h5></li>
+									</ul>
+									
+									<ul>
+										<h4>Draven Sculpt</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/male.png"><img src="images/3DImages/tn/male.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - A character from League of Legends for sculpting exercise</h5></li>
+									</ul>
+									<!--ul>
+										<h4>Mermaid Sculpt</h4>
+										
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/mer.jpg"><img src="images/3DImages/tn/mer.jpg" width="100" height="100" alt=""</a></li>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/mer2.png"><img src="images/3DImages/tn/mer2.png" width="100" height="100" alt=""</a></li>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/mer3.png"><img src="images/3DImages/tn/mer3.png" width="100" height="100" alt=""</a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - Zbrush sculpt referencing Mermaid from the Harry Potter films. 13k tris.</h5></li>
+									</ul-->
+									<ul>
+										<H4>Steampunk Units</H4>
+										
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/cannon1.png"><img src="images/3DImages/tn/cannon1.png" width="100" height="100" alt=""</a></li>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/cannon2.png"><img src="images/3DImages/tn/cannon2.png" width="100" height="100" alt=""</a></li>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/skull.png"><span><img src="images/3DImages/tn/skull.png" width="100" height="100" alt=""</span></a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - These are some of the assets I skuplted for a small steampunk project I was involved in.</h5></li>
+									</ul>
+									<ul>
+										<h4>Low Poly Subway Scene</h4>
+									</ul>
+									<ul>
+										<li><a class="fancybox" rel="group" href="images/3DImages/lg/sub.jpg"><span><img src="images/3DImages/tn/sub.jpg" width="100" height="100" alt=""</span></a></li>
+									</ul>
+									<ul>
+										<li><h5>Bio - </h5></li>
+									</ul>
+								 </div>
+								</section>
+							</div>
+					</article>
+				</div>
+			</div>
+			<footer class="mainfooter">
+				<p> Developed by DigiMax | All right reserverd &copy 2015-2016<asp:Label id="year" runat="server"></asp:Label> Nao Takeda</p>
+			</footer>
+		</form>
+	</body>
+</html>

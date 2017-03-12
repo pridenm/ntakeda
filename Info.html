@@ -1,0 +1,65 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Nao Takeda Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StyleSheet.css" type="text/css"/>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+    <header class="mainheader">
+        <asp:Image ID="Image1" runat="server" ImageUrl="images/header_up.png" CssClass="header_up"/>
+        <img src="images/logo.png" />
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li class="active"><a href="Info.html">Info</a></li>
+                <li><a href="3D.html">3D</a></li>
+                <li><a href="2D.html">2D</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="maincontent">
+            <div class="content">
+                <article class="topcontent">
+                    <div class="thecontent">
+                        <table style="width:100%">
+                            <tr>
+                                <td width="40%"><img src="images/NTInfoImg.jpg" />
+                                    <ul>
+                                        <li>Email: <a href="mailto:ntakeda8@gmail.com?subject=Feedback">ntakeda8@gmail.com</a></li>
+                                        <li>Linked-In: <a href="http://www.linkedin.com/in/ntakeda1">www.linkedin.com/in/ntakeda1</a></li>
+
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li><h2><a href="Files/NaoTakedaModelingResume.pdf">Download Resume</a></h2></li>
+                                        <li><h1>Nao Takeda</h1></li>
+                                        <li>- 3D sculptor at SEVEN CONTINENTS</li>
+                                        <li><br></li>
+                                        <li><b>Skills in</b></li>
+                                        <li>-3D studio max</li>
+                                        <li>-Maya</li>
+                                        <li>-Zbrush</li>
+                                        <li>-TopoGun</li>
+                                        <li>-Photoshop</li>
+                                        <li>-Illustrator</li>
+                                        <li>-Adobe Flash</li>
+                                        <li>-UDK</li>
+                                        <li>-Unity</li>
+                                        <li><br></li>
+                                        <li><b>Language:</b> English, Japanese</li>
+                                        </td>
+                            </tr>
+                        </table>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <footer class="mainfooter">
+            <p> Developed by DigiMax | All right reserverd &copy 2015-2016<asp:Label id="year" runat="server"></asp:Label> Nao Takeda</p>
+        </footer>
+    </form>
+</body>
+</html>
