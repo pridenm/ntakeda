@@ -111,7 +111,10 @@ a {
     }
 
 .thehomecontent td img {
-    padding-left:10%;
+    padding-left:1%;
+	padding-right:1%;
+	padding-top:1%;
+	padding-bottom:1%;
     width: 85%;
     height: auto;
 }
@@ -139,6 +142,17 @@ a {
         width: 280px;
     }
 
+.Lor {
+    border:dashed;
+    border-color: #f78d1d;
+    background-color: black;
+    width: auto;
+    height: auto;
+    margin-left:5%;
+	margin-right:5%;
+	margin-top:2%;
+}	
+
 .slidecontent img {
     border:dashed;
     border-color: #f78d1d;
@@ -148,6 +162,14 @@ a {
     margin-left:5%;
 }
 
+.VideoSection {
+    border:dashed;
+    border-color: #f78d1d;
+    width: auto;
+    height: auto;
+    margin-right:5%;
+	margin-left:-8%;
+}
 
 .Container {
     width:90%;
@@ -217,6 +239,45 @@ a {
 
 .label {
     width: 150px;
+}
+
+.LorPad {
+    width: 100%;
+    height: 20px;
+    float: left;
+    background-color: #666;
+    background-image: linear-gradient(to bottom, #666, gray);
+    margin: 2% 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.LoR {
+    width: 90%;
+	height: 80%;
+}
+.LoRBanner img {
+    width: 100%;
+}
+
+.LoRBio img {
+    width: 100%;
+}
+
+.LoRBio {
+	background-color: #666;
+}
+
+.LoRVideo iframe {
+    width: 100%;
+	height: 85%;
+}
+
+.LoRBio {
+    width: 100%;
+    background-color: #666;
+	margin: 0% 0;
 }
 
 .mainfooter {

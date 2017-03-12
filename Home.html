@@ -14,6 +14,8 @@
 			image2.src = "images/Slideshow3d/Im2.jpg"
 			var image3 = new Image()
 			image3.src = "images/Slideshow3d/Im3.jpg"
+			var image4 = new Image()
+			image4.src = "images/Slideshow3d/Im4.jpg"
 			//-->
 		</script>
 	</head>
@@ -41,6 +43,19 @@
 			<div class="maincontent">
 				<div class="content">
 					<article class="topcontent">
+						<div class="LoR">
+							<div class="LoRBanner">
+								<img src="images\TopVideoBanner.png"/>
+							</div>
+							<div class="LoRVideo">
+								<iframe src="videos/ACollaboration.mp4" frameborder="0" allowfullscreen>keep</iframe>
+							</div>
+							<!--div class="LoRBio">
+								<img src="images\TopVideoBio.png"/>
+							</div-->
+						</div>
+						<div class="LoRPad">
+						</div>
 						<div class="thehomecontent">
 							<table style="width:100%">
 								<tr>
@@ -52,7 +67,7 @@
 												var step=1
 												function slideit() {
 													document.images.slide.src = eval("image" + step + ".src")
-													if (step < 3)
+													if (step < 4)
 														step++
 													else
 														step = 1
@@ -60,23 +75,27 @@
 												}
 												slideit()
 												//-->
-											</script>
-										</div>
+												</script>
+											</div>
 											<!--iframe width="560" height="315" src="https://www.youtube.com/embed/3zvKV-WWH4A?rel=0" frameborder="0" allowfullscreen></iframe-->
-									</td>
-									<td>
-										<img src="images/NTSculptingGif.gif"/>
-									</td>
-								</tr>
-							</table>                       
-						</div>
-					</article>
+										</td>
+										<td>
+											<!--img src="images/NTSculptingGif.gif"/-->
+											<div class="VideoSection">
+												<iframe width="430" height="242" src="https://www.youtube.com/embed/3zvKV-WWH4A?rel=0" frameborder="0" allowfullscreen>keep</iframe>
+												<iframe width="430" height="120" src="" frameborder="0" allowfullscreen>keep</iframe>
+											</div>
+										</td>
+									</tr>
+								</table>                       
+							</div>
+						</article>
+					</div>
 				</div>
-			</div>
-			<footer class="mainfooter">
-				<p> Developed by DigiMax | All right reserverd &copy 2015-2016<asp:Label id="year" runat="server"/> Nao Takeda</p>
-			</footer>
-		</form>
-	</body>
-</html>
+				<footer class="mainfooter">
+					<p> Developed by DigiMax | All right reserverd &copy 2015-2016<asp:Label id="year" runat="server"/> Nao Takeda</p>
+				</footer>
+			</form>
+		</body>
+	</html>
 	
